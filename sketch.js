@@ -35,7 +35,7 @@ function setup() {
 	World.add(world, packageBody);
 	
 
-	//Create a Ground
+	//Crea el Suelo
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
